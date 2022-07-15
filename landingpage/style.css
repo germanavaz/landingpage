@@ -1,0 +1,69 @@
+/* dentro das tags - propiedade (o que) e valor (como) */ 
+
+body {
+    background-color: rgb(230, 230, 230);
+    
+}
+h1, h2, p, a {
+    font-family: 'roboto';
+    text-align: center;
+}
+
+div {
+    background-color: #fff;
+    padding: 30px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 600px;
+    margin: 30px auto;
+    text-align: center;
+    border-radius: 5px;
+}
+
+img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    margin: 0 auto;
+    display: block;
+}
+
+#linklewagon {
+    text-decoration: none;
+    font-weight: 800;
+    background-color: rgb(141, 140, 140);
+    color: black;
+    border-radius: 2px;
+    font-family: 'roboto';
+    font-size: 15px;
+    text-align: center;
+    padding: 12px;
+    
+}
+
+#paragrafo1 {
+    margin-bottom: 40px;
+
+}
+
+.titulo {
+    color:rgb(141, 140, 140);
+}
+
+ul, a {
+    padding: 0;
+    list-style: none;
+
+}
+
+ul li, a {
+    display: inline-block;
+    font-size: 42px;
+    margin: 10px 12px;
+    color: #c4c4c4;
+
+}
+
+ul li:hover, a:hover {
+    color: black;
+}
